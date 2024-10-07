@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список редких растений</title>
+</head>
+<body background="C:\Users\адм\Project\Images\orig(fon).webp" alink="#B22222">
+    <h2 align="center">Список редких растений</h2>
+    <ul>
+        <li><a href="C:\Users\адм\Project\index.html">Растения красной книги</a></li>
+        <li><a href="#top2">Список редких растений</a></li>
+    </ul>
+    <details>
+        <summary><b>График</b></summary>
+        <form>
+            <p>
+              Ось X:<br>
+              <input  type="radio"  name="X-axis" value="Type"> Вид <br>
+              <input  type="radio"  name="X-axis" value="Distribution"> Распространение <br>
+              <input  type="radio"  name="X-axis" value="Life_expectancy"> Продолжительность жизни
+            </p>
+          </form>
+          <form>
+            <p>
+              Результат:<br>
+              <input  type="checkbox"  name="result" value="centenarians"> Долгожители <br>
+              <input  type="checkbox"  name="result" value="species"> Количество редких видов <br>
+              <input  type="checkbox"  name="result" value="height"> Самые высокие 
+            </p>
+          </form>
+    </details>
+    <details>
+        <summary><b>Фильтр</b></summary>
+        <p>
+            <form>
+                Введите название растения:
+                <input type="text" name="name" id="name">
+            </form>
+        </p>
+        <p>
+            <form>
+                Введите вид:
+                <input type="text" name="view" id="view">
+            </form>
+        </p>
+        <p>
+            <form>
+                Введите страну:
+                <input type="text" name="country" id="country">
+            </form>
+        </p>
+        <p>
+            <form>
+                Введите продолжительность жизни: от
+                <input type="text" name="live" id="live">
+                до:
+                <input type="text" name="live" id="live">
+            </form>
+        </p>
+        <p>
+            <form>
+                Введите высоту растения: от
+                <input type="text" name="hight" id="hight">
+                до:
+                <input type="text" name="hight" id="hight">
+            </form>
+        </p>
+    </details>
+    <details>
+        <summary><b>Сортировка</b></summary>
+        <p>
+            <label>Первый уровень:
+                <select id="task">
+                    <option value="1.0"> Нет </option>
+                    <option value="1.1"> По продолжительности жизни </option>
+                    <option value="1.2"> По высоте </option>
+                    <option value="1.3"> По распространению </option>
+                    <form><input  type="checkbox"  name="decreasing" value="decreasing">По убыванию</form>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Второй уровень:
+                <select id="task">
+                    <option value="2.0"> Нет </option>
+                    <option value="2.1"> По продолжительности жизни </option>
+                    <option value="2.2"> По высоте </option>
+                    <option value="2.3"> По распространению </option>
+                    <form><input  type="checkbox"  name="decreasing" value="decreasing">По убыванию</form>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Третий уровень:
+                <select id="task">
+                    <option value="3.0"> Нет </option>
+                    <option value="3.1"> По продолжительности жизни </option>
+                    <option value="3.2"> По высоте </option>
+                    <option value="3.3"> По распространению </option>
+                    <form><input  type="checkbox"  name="decreasing" value="decreasing">По убыванию</form>
+                </select>
+            </label>
+        </p>
+    </details>
+    <a name="top2"></a><p><table border="1" align="center" bordercolor="#B22222" cellspacing="0">
+        <tr>
+            <td><b>Название</b></td>
+            <td><b>Вид</b></td>
+            <td><b>Распространение</b></td>
+            <td><b>Продолжительность жизни</b></td>
+            <td><b>Высота</b></td>
+        </tr>
+        <tr>
+            <td>Ютан Полуо</td>
+            <td>Цветок</td>
+            <td>Китай</td>
+            <td>Неизвестно</td>
+            <td>Неизвестно</td>
+        </tr>
+        <tr>
+            <td>Белый лотос</td>
+            <td>Цветок</td>
+            <td>Индия, Египет,  Юго-Восточная Азия</td>
+            <td>Многолетний</td>
+            <td>До 1,5 м</td>
+        </tr>
+        <tr>
+            <td>Сноудонская ястребинка</td>
+            <td>Цветок</td>
+            <td>Великобритания</td>
+            <td>Многолетний</td>
+            <td>До 15 см</td>
+        </tr>
+        <tr>
+            <td>Орхидея Шэньчжэнь-Нонгке</td>
+            <td>Цветок</td>
+            <td>Китай</td>
+            <td>Неизвестно</td>
+            <td>Неизвестно</td>
+        </tr>
+        <tr> 
+            <td>Баррингтония азиатская</td>
+            <td>Дерево</td>
+            <td>Юго-Восточная Азия</td>
+            <td>До 30 лет</td>
+            <td>До 30 м</td>
+        </tr>
+        <tr>
+            <td>Непентес Аттенборо</td>
+            <td>Растение-хищник</td>
+            <td>Филиппины</td>
+            <td>Многолетний</td>
+            <td>До 1,5 м</td> 
+        </tr>
+        <tr>
+            <td>Раффлезия Арнольда</td>
+            <td>Цветок</td>
+            <td>Индонезия</td>
+            <td>Неизвестно</td>
+            <td>До 1 м</td>
+        </tr> 
+        <tr>
+            <td>Ночной цветущий эхиноцереус</td>
+            <td>Кактус</td>
+            <td>Мексика</td>
+            <td>Многолетний</td>
+            <td>До 1 м</td>
+        </tr> 
+        <tr>
+            <td>Миддлемист красный</td>
+            <td>Цветок</td>
+            <td>Китай</td>
+            <td>Многолетний</td>
+            <td>Неизвестно</td>
+        </tr> 
+        <tr>
+            <td>Эустома</td>
+            <td>Цветок</td>
+            <td>Мексика, США</td>
+            <td>Однолетний</td>
+            <td>До 90 см</td>
+        </tr>
+        <tr>
+            <td>Орхидея Венерин башмачок</td>
+            <td>Цветок</td>
+            <td>Европа, Азия, Северная Америка</td>
+            <td>Многолетний</td>
+            <td>До 30 см</td>
+        </tr>
+        <tr>
+            <td>Кокия Кука</td>
+            <td>Дерево</td>
+            <td>Гавайские острова</td>
+            <td>Многолетний</td>
+            <td>До 10 м</td>
+        </tr>
+        <tr>
+            <td>Кадупул</td>
+            <td>Цветок</td>
+            <td>Шри-Ланка</td>
+            <td>Неизвестно</td>
+            <td>Неизвестно</td>
+        </tr>
+        <tr>
+            <td>Стронгилодон крупнокистевой</td>
+            <td>Лиана</td>
+            <td>Филиппины</td>
+            <td>Многолетний</td>
+            <td>До 30 м</td>
+        </tr>
+        <tr> 
+            <td>Гортензия</td>
+            <td>Кустарник</td>
+            <td>Азия, Америка</td>
+            <td>Многолетний</td>
+            <td>До 3 м</td>
+        </tr>
+        <tr>
+            <td>Лотус «Клюв золотого попугая»</td>
+            <td>Цветок</td>
+            <td>Австралия</td>
+            <td>Многолетний</td>
+            <td>Неизвестно</td> 
+        </tr>
+        <tr>
+            <td>Орхидея «Золото Кинабалу»</td>
+            <td>Цветок</td>
+            <td>Малайзия</td>
+            <td>Многолетний</td>
+            <td>Неизвестно</td>
+        </tr> 
+        <tr>
+            <td>Каикомако</td>
+            <td>Дерево</td>
+            <td>Новая Зеландия</td>
+            <td>До 1000 лет</td>
+            <td>До 25 м</td>
+        </tr> 
+        <tr>
+            <td>Камедь обыкновенная</td>
+            <td>Дерево</td>
+            <td>Австралия</td>
+            <td>До 500 лет</td>
+            <td>До 30 м</td>
+        </tr> 
+        <tr>
+            <td>Сосна Цяоцзя</td>
+            <td>Дерево</td>
+            <td>Китай</td>
+            <td>До 1000 лет</td>
+            <td>До 45 м</td>
+        </tr>
+        <tr>
+            <td>Баобаб Перье</td>
+            <td>Дерево</td>
+            <td>Мадагаскар</td>
+            <td>До 1000 лет</td>
+            <td>До 30 м</td>
+        </tr>
+        <tr>
+            <td>Кедр Кланвильяма</td>
+            <td>Дерево</td>
+            <td>Ливан</td>
+            <td>До 1000 лет</td>
+            <td>До 40 м</td>
+        </tr>
+        <tr>
+            <td>Притчардия из хребта Ваианаэ</td>
+            <td>Пальма</td>
+            <td>Гавайи </td>
+            <td>До 100 лет</td>
+            <td>До 15 м</td>
+        </tr>
+        <tr>
+            <td>Ала'Алахуа/Махо</td>
+            <td>Дерево</td>
+            <td>Гавайи</td>
+            <td>До 100 лет</td>
+            <td>До 20 м</td>
+        </tr>
+        <tr> 
+            <td>Флоридский тис</td>
+            <td>Дерево</td>
+            <td>США (Флорида)</td>
+            <td>До 1000 лет</td>
+            <td>До 20 м</td>
+        </tr>
+        <tr>
+            <td>Флоридская торрея</td>
+            <td>Дерево</td>
+            <td>США (Флорида)</td>
+            <td>До 1000 лет</td>
+            <td>До 20 м</td> 
+        </tr>
+        <tr>
+            <td>Гондурасский палисандр</td>
+            <td>Дерево</td>
+            <td>Гондурас</td>
+            <td>До 200 лет</td>
+            <td>До 30 м</td>
+        </tr> 
+        <tr>
+            <td>Драцена окаймлённая</td>
+            <td>Дерево</td>
+            <td>Африка</td>
+            <td>До 100 лет</td>
+            <td>До 15 м</td>
+        </tr> 
+        <tr>
+            <td>Головоломка «Обезьянка»</td>
+            <td>Кустарник</td>
+            <td>Китай</td>
+            <td>До 50 лет</td>
+            <td>До 2 м</td>
+        </tr> 
+        <tr>
+            <td>Африканское черное дерево</td>
+            <td>Дерево</td>
+            <td>Африка</td>
+            <td>До 1000 лет</td>
+            <td>До 30 м</td>
+        </tr>
+        <tr>
+            <td>Кленолистный дуб</td>
+            <td>Дерево</td>
+            <td>Европа</td>
+            <td>До 500 лет</td>
+            <td>До 30 м</td>
+        </tr>
+        <tr>
+            <td>Секвойя вечнозелёная</td>
+            <td>Дерево</td>
+            <td>США</td>
+            <td>До 2000 лет</td>
+            <td>До 115 м</td>
+        </tr>
+        <tr>
+            <td>Гигантская секвойя</td>
+            <td>Дерево</td>
+            <td>США</td>
+            <td>До 3000 лет</td>
+            <td>До 95 м</td>
+        </tr>
+        <tr>
+            <td>Сосна длиннолистная</td>
+            <td>Дерево</td>
+            <td>США</td>
+            <td>До 1000 лет</td>
+            <td>До 80 м</td>
+        </tr>
+        <tr> 
+            <td>Пихта Фрейзера</td>
+            <td>Дерево</td>
+            <td>США</td>
+            <td>До 150 лет</td>
+            <td>До 25 м</td>
+        </tr>
+        <tr>
+            <td>Аморфа кустарниковая</td>
+            <td>Кустарник</td>
+            <td>Северная Америка</td>
+            <td>50-100 лет</td>
+            <td>1-3 метра</td> 
+        </tr>
+        <tr>
+            <td>Земляничное дерево</td>
+            <td>Дерево</td>
+            <td>Южная Европа, Северная Африка</td>
+            <td>100-200 лет</td>
+            <td>5-10 метров</td>
+        </tr> 
+        <tr>
+            <td>Буссенгольция сердцелистная</td>
+            <td>Кустарник</td>
+            <td>Южная Европа, Западная Азия</td>
+            <td>100-200 лет</td>
+            <td>1-5 метров</td>
+        </tr> 
+        <tr>
+            <td>Синейлезис</td>
+            <td>Многолетнее травянистое растение</td>
+            <td>Северная Америка</td>
+            <td>3-5 лет</td>
+            <td>1-2 метра</td>
+        </tr> 
+        <tr>
+            <td>Красивоплодник Бодинье</td>
+            <td>Кустарник</td>
+            <td>Китай</td>
+            <td>50-100 лет</td>
+            <td>2-3 метра</td>
+        </tr>
+        <tr>
+            <td>Кампсис Фламенко</td>
+            <td>Лиана</td>
+            <td>Северная Америка</td>
+            <td>20-50 лет</td>
+            <td>до 10 метров</td>
+        </tr>
+        <tr>
+            <td>Кампсис Радиканс</td>
+            <td>Лиана</td>
+            <td>Северная Америка</td>
+            <td>20-50 лет</td>
+            <td>до 10 метров</td>
+        </tr>
+        <tr>
+            <td>Каштан съедобный</td>
+            <td>Дерево</td>
+            <td>Северная Америка</td>
+            <td>100-200 лет</td>
+            <td>20-30 метров</td>
+        </tr>
+        <tr>
+            <td>Цефалантус западный</td>
+            <td>Дерево</td>
+            <td>Северная Америка</td>
+            <td>50-100 лет</td>
+            <td>5-12 метров</td>
+        </tr>
+        <tr> 
+            <td>Кладрастис желтый</td>
+            <td>Дерево</td>
+            <td>Северная Америка</td>
+            <td>100-200 лет</td>
+            <td>10-20 метров</td>
+        </tr>
+        <tr>
+            <td>Лох узколистный</td>
+            <td>Дерево</td>
+            <td>Центральная Азия</td>
+            <td>50-100 лет</td>
+            <td>5-10 метров</td> 
+        </tr>
+        <tr>
+            <td>Экзохорда Королькова</td>
+            <td>Кустарник</td>
+            <td>Центральная Азия</td>
+            <td>20-50 лет</td>
+            <td>2-3 метра</td>
+        </tr> 
+        <tr>
+            <td>Фотергилла</td>
+            <td>Кустарник</td>
+            <td>Северная Америка</td>
+            <td>50-100 лет</td>
+            <td>1-2 метра</td>
+        </tr> 
+        <tr>
+            <td>Гимнокладус двудомный</td>
+            <td>Дерево</td>
+            <td>Северная Америка</td>
+            <td>100-200 лет</td>
+            <td>20-30 метров</td>
+        </tr> 
+        <tr>
+            <td>Керия японская Пленифлора</td>
+            <td>Кустарник</td>
+            <td>Япония</td>
+            <td>20-50 лет</td>
+            <td>1-2 метра</td>
+        </tr>
+    </table>
+</body></p></a>
+</html>
