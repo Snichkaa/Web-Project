@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виды растений</title>
+    <style>
+        .container1 {
+            display: block; 
+        }
+        .cont {
+            display: block; 
+        }
+        .image {
+            display: inline-block; 
+            height: 400px; 
+            width: auto; 
+            max-width: 100%; 
+            object-fit: cover; 
+        }
+
+        .container2 {
+            text-align: center; 
+        }
+
+        .block1, .block2 {
+            display: inline-block; 
+            vertical-align: bottom; 
+        }
+
+        .block1 {
+            width: 35%;
+            height: 30%;
+            background-color: rgb(238, 184, 184);
+            text-align: center; 
+            margin-right: 1%; 
+        }
+
+        .block2 {
+            width: 100%;
+            height: 30%;
+            background-color: rgb(238, 184, 184);
+            text-align: right; 
+        }
+
+        .block3 {
+            width: 100%;
+            height: 30%;
+            background-color: rgb(238, 184, 184);
+            text-align: left; 
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 200%;
+        }
+
+        a {
+            display: inline-block; 
+            font-size: 160%;
+            background-color: rgb(168, 131, 131);
+            color: white;
+            text-decoration: none;
+            padding: 1%; 
+            margin: 1%; 
+        }
+
+        img {
+            vertical-align: middle;
+
+        }
+
+        .container2 div {
+            display: inline-block;
+            width : 5.5%; 
+            text-align: center;
+            margin : 0.2%;
+            padding: 0.3%;
+        }
+
+        span {
+            white-space: nowrap;
+        }
+
+        p {
+            word-wrap: break-word;
+        }
+        .main {
+            text-align: center; 
+        }
+
+        .content {
+            display: inline-block;
+            width: 80%;
+            margin: 0.1% auto; 
+            border: solid thin grey;
+            padding: 0.1%;
+            overflow: hidden; 
+        }
+
+        .block {
+            float: left; 
+            margin-right: 0.2%;
+        }
+
+        .text {
+            overflow: hidden; 
+        }
+        .left {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="block1"><h3>Редкие растения</h3></div>
+        <div class="block2 left">
+            <a href="#">Ютан Полуо</a>
+            <a href="#">Миддлемист красный</a>
+            <a href="#">Баррингтония азиатская</a>
+            <a href="#">Белый лотос</a>
+        </div>
+    </div>
+    <div class="cont">
+        <img src="Images/y2.jpg" style="width: 25%;" class="image" alt="Изображение Ютана">
+        <img src="Images/red.jpg" style="width: 49.3%;" class="image" alt="Изображение Красного цветка">
+        <img src="Images/lotos.jpg" style="width: 25%;" class="image" alt="Изображение Лотоса">
+    </div>
+    <div class="container2">
+        <div>
+            <img src="Images/y2.jpg" width="110%" alt="Изображение Ютана">
+            <p>Ютан</p>
+        </div>
+        <div>
+            <img src="Images/red.jpg" width="110%"  alt="Изображение Красного цветка">
+            <p>Миддл</p>
+        </div>
+        <div>
+            <img src="Images/lotos.jpg" width="110%"  alt="Изображение Лотоса">
+            <p>Лотос</p>
+        </div>
+        <div>
+            <img src="Images/white.webp" width="110%"  alt="Изображение Белой азиатской лилии">
+            <p>Барринг</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <h4>Редкие цветы</h4>
+            Цветы — постоянный источник радости: ботаники, садоводы, поэты и все, кто гуляет весной, знают, какое это удовольствие — видеть распускающийся цветок, часто источающий восхитительный аромат. Обычные цветы — ромашки, розы, герань и даже одуванчики — не менее прекрасны, но редкие цветы обладают особым очарованием.
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="block">
+                <img src="Images/eustom.webp" width="100" height="100" alt="Изображение Эустомы">
+            </div>
+            <div class="text">
+                <h4>Эустома</h4>
+                <p>Эустомы – это крупные цветы, похожие на горечавки, по форме напоминающие колокольчики. 
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="block3">Мартошенко В.Ю, Б9122-09.03.04, 2024-2025</div>
+    </div>
+</body>
+</html>
